@@ -1,0 +1,289 @@
+{
+    "recommendations": [
+        "vlolvinc.venus-control-pad"
+    ]
+}{
+    "Metadata": {
+      "NameServer": "10.255.255.3",
+      "Protocol": "Tcp",
+      "DatagramSize": "1770 bytes",
+      "RoundTripTime": "561.41 ms"
+    },
+    "EDNS": {
+      "UdpPayloadSize": 1232,
+      "ExtendedRCODE": "NxDomain",
+      "Version": 0,
+      "Flags": "DNSSEC_OK",
+      "Options": []
+    },
+    "Identifier": 0,
+    "IsResponse": true,
+    "OPCODE": "StandardQuery",
+    "AuthoritativeAnswer": false,
+    "Truncation": false,
+    "RecursionDesired": true,
+    "RecursionAvailable": true,
+    "Z": 0,
+    "AuthenticData": false,
+    "CheckingDisabled": true,
+    "RCODE": "NxDomain",
+    "QDCOUNT": 1,
+    "ANCOUNT": 0,
+    "NSCOUNT": 12,
+    "ARCOUNT": 1,
+    "Question": [
+      {
+        "Name": "mackwordpress.com",
+        "Type": "CNAME",
+        "Class": "IN"
+      }
+    ],
+    "Answer": [],
+    "Authority": [
+      {
+        "Name": "com",
+        "Type": "SOA",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "64 bytes",
+        "RDATA": {
+          "PrimaryNameServer": "a.gtld-servers.net",
+          "ResponsiblePerson": "nstld@verisign-grs.com",
+          "Serial": 1701666629,
+          "Refresh": 1800,
+          "Retry": 900,
+          "Expire": 604800,
+          "Minimum": 86400
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "87 bytes",
+        "RDATA": {
+          "TypeCovered": "SOA",
+          "Algorithm": "ECDSAP256SHA256",
+          "Labels": 1,
+          "OriginalTtl": 900,
+          "SignatureExpiration": "2023-12-11T05:10:29Z",
+          "SignatureInception": "2023-12-04T04:00:29Z",
+          "KeyTag": 46171,
+          "SignersName": "com",
+          "Signature": "//3UgL44oJeEoP5vsD2PqliZzqOexkH13o4onbEdRbu8CIOQFBERm3iZ5fE5l3ynZF95VxPO85fXVAqNG6bkVA=="
+        },
+        "DnssecStatus": "Bogus"
+      },
+      {
+        "Name": "com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "183 bytes",
+        "RDATA": {
+          "TypeCovered": "SOA",
+          "Algorithm": "RSASHA256",
+          "Labels": 1,
+          "OriginalTtl": 900,
+          "SignatureExpiration": "2023-12-11T05:10:29Z",
+          "SignatureInception": "2023-12-04T04:00:29Z",
+          "KeyTag": 63246,
+          "SignersName": "com",
+          "Signature": "MUa0ZrUgwn+EptG++pE+plR8dwBV9ItP7x5n57AhEYv7X2KIS1lT6X4eA9YAo3dUg2ISXSt5PMcVg6A1OxhkERgFb6EGF0WLg7XlbCGt0K3hqQTaoCQZjMEcqehCVDa79E/jbEMwbQRK7onv+V9EWfutqFGc+7IVvGISS7Ng0ZgvDJEArOyXfs9phd7yQVXO+d5jpErsU6W5ekvgbrd/MQ=="
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "3RL2Q58205687C8I9KC9MV46DGHCNS45.com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "183 bytes",
+        "RDATA": {
+          "TypeCovered": "NSEC3",
+          "Algorithm": "RSASHA256",
+          "Labels": 2,
+          "OriginalTtl": 86400,
+          "SignatureExpiration": "2023-12-07T07:40:35Z",
+          "SignatureInception": "2023-11-30T06:30:35Z",
+          "KeyTag": 63246,
+          "SignersName": "com",
+          "Signature": "hL2uBsUy2XT20k9RbE5tlgSIfuAVs4GLuviLYUs4dMH6GTZZeJfKzYqVaJxksvDUifNnmYnkqx/vNZlYQ+FXUzrFbTzODK3538j6A0jT/dsDYpXkay3tfBSg/P7CKku3I5v4t03POCR8kt5+I02XD/F3Ln/3d5rbF5fOtXlaEwh6J406jZvxPVjNrHj9PNPLYVB89XMNDpBxbJg+JgYeNg=="
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "3RL2Q58205687C8I9KC9MV46DGHCNS45.com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "87 bytes",
+        "RDATA": {
+          "TypeCovered": "NSEC3",
+          "Algorithm": "ECDSAP256SHA256",
+          "Labels": 2,
+          "OriginalTtl": 86400,
+          "SignatureExpiration": "2023-12-07T07:40:35Z",
+          "SignatureInception": "2023-11-30T06:30:35Z",
+          "KeyTag": 46171,
+          "SignersName": "com",
+          "Signature": "OTDjpnmNcrk9tuWcalVLqsmFndch+3Ua0zLv3ptNUX6Z4idk7VvH8yMO8Ov65amq4qFswckCp9hCviRFXBCoUQ=="
+        },
+        "DnssecStatus": "Bogus"
+      },
+      {
+        "Name": "3RL2Q58205687C8I9KC9MV46DGHCNS45.com",
+        "Type": "NSEC3",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "34 bytes",
+        "RDATA": {
+          "HashAlgorithm": "SHA1",
+          "Flags": "OptOut",
+          "Iterations": 0,
+          "Salt": "",
+          "NextHashedOwnerName": "3RL2SHVUMC300IUC2TDL4VML2HNF0O7I",
+          "Types": [
+            "NS",
+            "DS",
+            "RRSIG"
+          ]
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "183 bytes",
+        "RDATA": {
+          "TypeCovered": "NSEC3",
+          "Algorithm": "RSASHA256",
+          "Labels": 2,
+          "OriginalTtl": 86400,
+          "SignatureExpiration": "2023-12-08T05:28:21Z",
+          "SignatureInception": "2023-12-01T04:18:21Z",
+          "KeyTag": 63246,
+          "SignersName": "com",
+          "Signature": "BRDgjHm5rmt3yE1ehqmGH/pZTHEOQE6SSi7Ixcrv+eT4WEQxhSzQmOt2lp0M+r29vhnlyYdmI3TIZ7uOdurUpII/yboJbKL4U9aDOlw776VGEhquRlnLtM7OFALwdwtKM0IxrVm2kIsBDOLDIgwEY+sxmV0S5zpUVLQuZe1m/Zkhqq8/+37kF/Z98RVfdGnOmDYKoOk3mztKjeQ9+L7zOA=="
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "87 bytes",
+        "RDATA": {
+          "TypeCovered": "NSEC3",
+          "Algorithm": "ECDSAP256SHA256",
+          "Labels": 2,
+          "OriginalTtl": 86400,
+          "SignatureExpiration": "2023-12-08T05:28:21Z",
+          "SignatureInception": "2023-12-01T04:18:21Z",
+          "KeyTag": 46171,
+          "SignersName": "com",
+          "Signature": "O3mTbNY/Tv8tBAvRIAzdaICXn23oceEPfZkx1AOp5jdk9+HfsQ7ZgPhGDTT0mdf2RDf8Z79/dBg68PoJEc+t1Q=="
+        },
+        "DnssecStatus": "Bogus"
+      },
+      {
+        "Name": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com",
+        "Type": "NSEC3",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "35 bytes",
+        "RDATA": {
+          "HashAlgorithm": "SHA1",
+          "Flags": "OptOut",
+          "Iterations": 0,
+          "Salt": "",
+          "NextHashedOwnerName": "CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5",
+          "Types": [
+            "NS",
+            "SOA",
+            "RRSIG",
+            "DNSKEY",
+            "NSEC3PARAM"
+          ]
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "PU12N4T5H1IABO5LFHSB09C256QMK25O.com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "183 bytes",
+        "RDATA": {
+          "TypeCovered": "NSEC3",
+          "Algorithm": "RSASHA256",
+          "Labels": 2,
+          "OriginalTtl": 86400,
+          "SignatureExpiration": "2023-12-10T07:09:31Z",
+          "SignatureInception": "2023-12-03T05:59:31Z",
+          "KeyTag": 63246,
+          "SignersName": "com",
+          "Signature": "M1ORf+aTYBSe6sJ0b0yeg0mcYdrgZITKh8dZjtxOAGqq/dX2lFiOjvFQM55L8b3XpFTE97umOLP7wwxL1b3IzISwILEcHSs6PEhJnlPLz9WK8idLzzaeKKAGp0Sn1kz/mHWXatn7J45z1CWlShIAuf9BZLSmeQbaoUN6zsRlllfQ+PDkspIW9ue4yA5xMntoSm3LmHdGDs9lBn7hPnmU2g=="
+        },
+        "DnssecStatus": "Secure"
+      },
+      {
+        "Name": "PU12N4T5H1IABO5LFHSB09C256QMK25O.com",
+        "Type": "RRSIG",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "87 bytes",
+        "RDATA": {
+          "TypeCovered": "NSEC3",
+          "Algorithm": "ECDSAP256SHA256",
+          "Labels": 2,
+          "OriginalTtl": 86400,
+          "SignatureExpiration": "2023-12-10T07:09:31Z",
+          "SignatureInception": "2023-12-03T05:59:31Z",
+          "KeyTag": 46171,
+          "SignersName": "com",
+          "Signature": "wSr9KuTUMQnoONcbyVnQVCOSTtJ/jRSFeQ804a+fiONdNWfSHwhw8MUcP6UurvdRGzF/owojFpYNZnJ3DMjP9g=="
+        },
+        "DnssecStatus": "Bogus"
+      },
+      {
+        "Name": "PU12N4T5H1IABO5LFHSB09C256QMK25O.com",
+        "Type": "NSEC3",
+        "Class": "IN",
+        "TTL": "550 (9 mins 10 sec)",
+        "RDLENGTH": "34 bytes",
+        "RDATA": {
+          "HashAlgorithm": "SHA1",
+          "Flags": "OptOut",
+          "Iterations": 0,
+          "Salt": "",
+          "NextHashedOwnerName": "PU13JJ20DO4EC61849BVHGRRURDQ67O2",
+          "Types": [
+            "NS",
+            "DS",
+            "RRSIG"
+          ]
+        },
+        "DnssecStatus": "Secure"
+      }
+    ],
+    "Additional": [
+      {
+        "Name": "",
+        "Type": "OPT",
+        "Class": "1232",
+        "TTL": "32768 (9 hours 6 mins 8 sec)",
+        "RDLENGTH": "0 bytes",
+        "RDATA": {
+          "Options": []
+        },
+        "DnssecStatus": "Indeterminate"
+      }
+    ]
+  }
+  
